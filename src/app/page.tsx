@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className="bg-white flex flex-col gap-12 lg:gap-16">
       <Hero />
+      <CourseLadder />
       <Services />
       <ProblemSolution />
-      <CourseLadder />
       <TrustSection />
       <FinalCTA />
     </div>
