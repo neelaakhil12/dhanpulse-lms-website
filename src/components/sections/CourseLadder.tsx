@@ -58,7 +58,7 @@ export default function CourseLadder() {
             viewport={{ once: true }}
             className="text-3xl font-bold text-gray-900 mb-4 sm:text-4xl"
           >
-            Your Path to <span className="text-brand-navy">Consistency</span>
+            Our Exclusive <span className="text-brand-navy">Courses</span>
           </motion.h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto font-medium">
             From absolute beginner to professional trader, our structured curriculum guides you every step of the way.
