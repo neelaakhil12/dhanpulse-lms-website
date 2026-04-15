@@ -34,7 +34,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <AuthProvider>
           <Navbar />
-          <main className="flex-grow w-full pt-20 pb-20 md:pb-0">
+          <main className="flex-grow w-full pt-20 md:pt-24 pb-20 md:pb-0">
             {children}
           </main>
           <Footer />

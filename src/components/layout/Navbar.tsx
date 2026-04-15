@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <header className="bg-brand-navy fixed top-0 z-50 w-full shadow-md">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-20 md:h-24 items-center justify-between">
 
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 flex items-center">
@@ -27,7 +27,7 @@ export default function Navbar() {
               alt="DhanPulse Logo"
               width={280}
               height={80}
-              className="h-[72px] md:h-20 w-auto object-contain"
+              className="h-[72px] md:h-24 w-auto object-contain"
               priority
             />
           </Link>
