@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import { useState, useEffect } from "react";
 
 // Dynamically import ReactPlayer to avoid SSR issues
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false }) as any;
 
 interface VideoPlayerProps {
   url: string;
@@ -36,12 +36,12 @@ export default function VideoPlayer({ url, onEnded, onProgress }: VideoPlayerPro
         controls={true}
         playing={false}
         onEnded={onEnded}
-        onProgress={onProgress}
+        onProgress={onProgress as any}
         config={{
           youtube: {
             playerVars: { showinfo: 1 }
           }
-        }}
+        } as any}
       />
     </div>
   );

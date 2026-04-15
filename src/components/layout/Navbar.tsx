@@ -47,7 +47,7 @@ export default function Navbar() {
             {session ? (
               <div className="flex items-center gap-4">
                 <Link
-                  href={session.user.role === "admin" ? "/admin" : "/dashboard"}
+                  href={session?.user?.role === "admin" ? "/admin" : "/dashboard"}
                   className="flex items-center gap-2 bg-black/20 text-white px-4 py-2 rounded-full text-sm font-bold border border-white/10 hover:bg-black/30 transition-all"
                 >
                   <LayoutDashboard className="h-4 w-4" />
@@ -75,7 +75,7 @@ export default function Navbar() {
           <div className="flex md:hidden items-center">
             {session ? (
               <Link
-                href={session.user.role === "admin" ? "/admin" : "/dashboard"}
+                href={session?.user?.role === "admin" ? "/admin" : "/dashboard"}
                 className="flex items-center gap-1.5 bg-white/10 text-white px-4 py-2 rounded-full text-xs font-bold border border-white/20 hover:bg-white/20 transition-all"
               >
                 <LayoutDashboard className="h-4 w-4" />
