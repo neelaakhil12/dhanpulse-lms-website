@@ -27,7 +27,7 @@ export default function Navbar() {
               alt="DhanPulse Logo"
               width={280}
               height={80}
-              className="h-[72px] md:h-16 w-auto object-contain"
+              className="h-[72px] md:h-20 w-auto object-contain"
               priority
             />
           </Link>
