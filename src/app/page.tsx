@@ -1,5 +1,5 @@
 import Hero from "@/components/sections/Hero";
-import CourseCategories from "@/components/sections/CourseCategories";
+import Services from "@/components/sections/Services";
 import ProblemSolution from "@/components/sections/ProblemSolution";
 import CourseLadder from "@/components/sections/CourseLadder";
 import TrustSection from "@/components/sections/TrustSection";
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="bg-white flex flex-col gap-12 lg:gap-16">
       <Hero />
-      <CourseCategories />
+      <Services />
       <ProblemSolution />
       <CourseLadder />
       <TrustSection />
